@@ -2,7 +2,7 @@ import gym
 import tensorflow as tf
 import numpy as np 
 
-from PPO.PPO import *
+from training.PPO import *
 
 from models.discrete_policy import *
 from models.discrete_value import *

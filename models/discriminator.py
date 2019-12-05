@@ -4,9 +4,8 @@
 
 import tensorflow as tf 
 import numpy as np 
-from factory import *
 
-from dataset import *
+from factory import *
 
 class DiscriminatorNetwork:
 	"""

@@ -2,12 +2,15 @@ import gym
 import tensorflow as tf
 import numpy as np 
 
-from PPO.PPO import *
-from GAIL.GAIL import *
+from training.PPO import *
+from training.imitation.GAIL import *
 
 from models.discrete_policy import *
 from models.discrete_value import *
 from models.discriminator import *
+
+from training.utils.dataset import *
+
 
 def load_dataset(state_filename, action_filename):
 	"""

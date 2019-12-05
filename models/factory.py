@@ -5,9 +5,6 @@
 import tensorflow as tf 
 import numpy as np 
 
-from dataset import *
-
-
 
 # Helpers for creating nn model
 def create_weight(shape, name=None, std_dev=0.25):

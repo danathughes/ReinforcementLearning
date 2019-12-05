@@ -4,10 +4,9 @@
 ## a discrete action space.  The network assumes the following input
 
 import tensorflow as tf 
-import numpy as np 
-from factory import *
+import numpy as np
 
-from dataset import *
+from factory import *
 
 
 class ValueNetwork:
